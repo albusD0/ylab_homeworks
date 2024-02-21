@@ -26,7 +26,7 @@
 
 ### 3. Ответьте на вопросы:
 #### - Какой категории ui-элементов относится данный элемент? (см. доп. материалы) 
-![ntcn](https://drive.google.com/file/d/1jbSXuMYU_qqZjIktAFH8oAnB3514ZhOc/view?usp=drive_link)
+<img src="https://github.com/albusD0/ylab_homeworks/blob/main/homework_2/%D0%94%D0%97%202.jpg" width="480">
 
 Это ***навигационные компоненты***, которые помогают ориентироваться по сайту: 
 - ***пагинация***, которая позволяет переходить к определенной странице сайта 
