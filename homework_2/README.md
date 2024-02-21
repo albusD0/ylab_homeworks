@@ -13,6 +13,8 @@
 | 4 | 	EN | 	Opera | Ubuntu 20.04 |
 | 5 | 	RU | 	Opera | Ubuntu 20.04 |
 | 6 | 	RU | 	Firefox | Windows 10 | 
+| 7 | RU	| Chrome	| Android 10 |
+| 8 | EN	| Chrome	| Android 10 |
 
 
 ### 3. Ответьте на вопросы:
