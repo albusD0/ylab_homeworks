@@ -24,6 +24,17 @@
 | 7 | RU	| Chrome	| Android 10 |
 | 8 | EN	| Chrome	| Android 10 |
 
+| №	| Язык | Браузер | ОС | 
+| - | - | - | - |
+| 1 | 	EN | 	Firefox | 	Windows 10 |
+| 2 | 	RU | 	Firefox | Windows 10 | 
+| 3 | 	EN | 	Opera | Ubuntu 20.04 |
+| 4 | 	RU | 	Opera | Ubuntu 20.04 |
+| 5 | 	EN | 	Opera | Windows 10 |
+| 6 | 	RU | 	Firefox | 	Ubuntu 20.04 | 
+| 7 | EN	| Chrome	| Android 10 |
+| 8 | RU	| Chrome	| Android 10 |
+
 
 ### 3. Ответьте на вопросы:
 #### - Какой категории ui-элементов относится данный элемент? (см. доп. материалы) 
