@@ -2,6 +2,9 @@
 
 >#### - Определите первый HTTPS-запрос, отправленный к домену ylab.io. В ответе укажите стартовую строку данного запроса.
 
+Открыв DevTools в Chrome, прошел во вкладку **Network** и в [сетевом журнале](https://developer.chrome.com/docs/devtools/network?hl=ru#load) выбрал самый первый запрос, который назывался **ylab.io**. 
+
+
 :authority:
 ylab.io
 :method:
@@ -10,6 +13,8 @@ GET
 /
 :scheme:
 https
+
+GET / HTTP/2
 
 >#### - У вкладки “О компании” (https://drive.google.com/file/d/1fSPgT9usn6gEBGcQcnKaBlcWuJkBI-88/view?usp=sharing) определите цвет используемого шрифта. В ответе укажите его в формате r,g,b.
 
