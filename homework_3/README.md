@@ -11,22 +11,24 @@
 :path: /
 :scheme: https
 ````
-Немного погуглив, пришел к выводу, что ввиду того, что HTTP/2 - бинарный протокол, а не текстовый, как HTTP/1, в нем для записи используются псевдозаголовки (можно посмотреть, например, [здесь](https://portswigger.net/web-security/request-smuggling/advanced/http2-exclusive-vectors))
+Немного погуглив, пришел к выводу, что ввиду того, что HTTP/2 - бинарный протокол, а не текстовый, как HTTP/1, в нем для записи используются псевдозаголовки (можно посмотреть, например, [здесь](https://portswigger.net/web-security/request-smuggling/advanced/http2-exclusive-vectors)). Цитата с вышеприведенного сайта:
 
-
-
-    :method - The request method.
-
-    :path - The request path. Note that this includes the query string.
-
-    :authority - Roughly equivalent to the HTTP/1 Host header.
-
-    :scheme - The request scheme, typically http or https.
-
+>   :method - The request method.  
+    :path - The request path. Note that this includes the query string.  
+    :authority - Roughly equivalent to the HTTP/1 Host header.  
+    :scheme - The request scheme, typically http or https.  
     :status - The response status code (not used in requests).
 
+И получается, что запись 
+````
+:method: GET
+:path: /
+:scheme: https
+````
 
-GET / HTTP/2
+в DevTools для ylab.io соответствует такой стартовой строке, как **`GET / HTTP/2`**, где слэш после GET обозначает корневой каталог, а `:authority: ylab.io` - это то же самое, что `Host: ylab.io`
+
+Для интереса запустил инструменты разработчика в 
 
 >#### - У вкладки “О компании” (https://drive.google.com/file/d/1fSPgT9usn6gEBGcQcnKaBlcWuJkBI-88/view?usp=sharing) определите цвет используемого шрифта. В ответе укажите его в формате r,g,b.
 
