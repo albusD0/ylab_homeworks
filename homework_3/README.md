@@ -1,4 +1,4 @@
-<iframe src="https://drive.google.com/file/d/10HagiLcf8-aRWj0qwCWZpUvSkMPnb8Ok/view?usp=drive_link"></iframe>
+<iframe src="  "></iframe> 
 ### 1. Используя браузер Google Chrome, перейдите на сайт https://ylab.io/ 
 
 > #### - Определите первый HTTPS-запрос, отправленный к домену ylab.io. В ответе укажите стартовую строку данного запроса.
