@@ -32,6 +32,8 @@
 
 **GET / HTTP/2**
 
+Второй строкой уже идет `Host: ylab.io`.
+
 > #### - У вкладки “О компании” (https://drive.google.com/file/d/1fSPgT9usn6gEBGcQcnKaBlcWuJkBI-88/view?usp=sharing) определите цвет используемого шрифта. В ответе укажите его в формате r,g,b.
 
 ***Ответ: цвет используемого шрифта - `RGB (10, 184, 182)`*** 
