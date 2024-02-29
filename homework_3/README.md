@@ -1,4 +1,4 @@
-<iframe src="  "></iframe> 
+<iframe src="https://github.com/albusD0/ylab_homeworks/blob/main/homework_3/media/chrome_devtools.mp4"></iframe>  
 ### 1. Используя браузер Google Chrome, перейдите на сайт https://ylab.io/ 
 
 > #### - Определите первый HTTPS-запрос, отправленный к домену ylab.io. В ответе укажите стартовую строку данного запроса.
