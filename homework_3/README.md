@@ -3,16 +3,28 @@
 >#### - Определите первый HTTPS-запрос, отправленный к домену ylab.io. В ответе укажите стартовую строку данного запроса.
 
 Открыв DevTools в Chrome, прошел во вкладку **Network** и в [сетевом журнале](https://developer.chrome.com/docs/devtools/network?hl=ru#load) выбрал самый первый запрос, который назывался **ylab.io**. 
+Далее проинспектировал вкладку **Headers**, где выбрал **Request Headers**. Первым, что шло в нем, было^
+
+````
+:authority: ylab.io
+:method: GET
+:path: /
+:scheme: https
+````
+Немного погуглив, пришел к выводу, что ввиду того, что HTTP/2 - бинарный протокол, а не текстовый, как HTTP/1 для записи используются псевдозаголовки (можно посмотреть, например, [здесь](https://portswigger.net/web-security/request-smuggling/advanced/http2-exclusive-vectors))
 
 
-:authority:
-ylab.io
-:method:
-GET
-:path:
-/
-:scheme:
-https
+
+    :method - The request method.
+
+    :path - The request path. Note that this includes the query string.
+
+    :authority - Roughly equivalent to the HTTP/1 Host header.
+
+    :scheme - The request scheme, typically http or https.
+
+    :status - The response status code (not used in requests).
+
 
 GET / HTTP/2
 
