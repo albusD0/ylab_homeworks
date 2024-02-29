@@ -13,7 +13,7 @@
 :path: /
 :scheme: https
 ````
-<img src="https://github.com/albusD0/ylab_homeworks/blob/main/homework_3/media/startline_in_chrome.png" width="512">
+<img src="https://github.com/albusD0/ylab_homeworks/blob/main/homework_3/media/startline_in_chrome.png" width="560">
 
 Немного погуглив, пришел к выводу, что ввиду того, что HTTP/2 - бинарный протокол, а не текстовый, как HTTP/1, в нем для записи используются псевдозаголовки (можно об этом посмотреть, например, [здесь](https://portswigger.net/web-security/request-smuggling/advanced/http2-exclusive-vectors)). Цитата с приведенного сайта:
 
@@ -38,7 +38,7 @@
 
 Второй строкой уже идет `Host: ylab.io`.
 
-<img src="https://github.com/albusD0/ylab_homeworks/blob/main/homework_3/media/startline_in_ff.png" width="640">
+<img src="https://github.com/albusD0/ylab_homeworks/blob/main/homework_3/media/startline_in_ff.png" width="560">
 
 ### - У вкладки “О компании” (https://drive.google.com/file/d/1fSPgT9usn6gEBGcQcnKaBlcWuJkBI-88/view?usp=sharing) определите цвет используемого шрифта. В ответе укажите его в формате r,g,b.
 
