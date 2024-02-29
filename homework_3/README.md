@@ -17,7 +17,7 @@
 
 Немного погуглив, пришел к выводу, что ввиду того, что HTTP/2 - бинарный протокол, а не текстовый, как HTTP/1, в нем для записи используются псевдозаголовки (можно об этом посмотреть, например, [здесь](https://portswigger.net/web-security/request-smuggling/advanced/http2-exclusive-vectors)). Цитата с приведенного сайта:
 
->>   :method - The request method.  
+>   :method - The request method.  
     :path - The request path. Note that this includes the query string.  
     :authority - Roughly equivalent to the HTTP/1 Host header.  
     :scheme - The request scheme, typically http or https.  
