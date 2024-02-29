@@ -1,6 +1,6 @@
 ### 1. Используя браузер Google Chrome, перейдите на сайт https://ylab.io/ 
 
-#### - Определите первый HTTPS-запрос, отправленный к домену ylab.io. В ответе укажите стартовую строку данного запроса.
+> #### - Определите первый HTTPS-запрос, отправленный к домену ylab.io. В ответе укажите стартовую строку данного запроса.
 
 Открыв DevTools в Chrome, прошел во вкладку **Network** и в [сетевом журнале](https://developer.chrome.com/docs/devtools/network?hl=ru#load) выбрал самый первый запрос, который назывался **ylab.io**. 
 Далее проинспектировал вкладку **Headers**, где выбрал **Request Headers**. Первым, что шло в нем, было:
@@ -13,7 +13,7 @@
 ````
 Немного погуглив, пришел к выводу, что ввиду того, что HTTP/2 - бинарный протокол, а не текстовый, как HTTP/1, в нем для записи используются псевдозаголовки (можно об этом посмотреть, например, [здесь](https://portswigger.net/web-security/request-smuggling/advanced/http2-exclusive-vectors)). Цитата с вышеприведенного сайта:
 
->   :method - The request method.  
+>>   :method - The request method.  
     :path - The request path. Note that this includes the query string.  
     :authority - Roughly equivalent to the HTTP/1 Host header.  
     :scheme - The request scheme, typically http or https.  
@@ -28,9 +28,11 @@
 
 в DevTools для ylab.io соответствует такой стартовой строке, как **`GET / HTTP/2`**, где слэш после GET обозначает корневой каталог, а `:authority: ylab.io` - это примерно как `Host: ylab.io`
 
-Для интереса запустил инструменты разработчика в 
+Для интереса запустил инструменты разработчика в Firefox, открыл вкладку сеть, выбрал первый запрос ylab.io, в **Заголовки запроса** поставил переключатель в положение **Необработанные**, после чего отобразилась _стартовая строка_, которая там выглядит следующим образом:
 
-#### - У вкладки “О компании” (https://drive.google.com/file/d/1fSPgT9usn6gEBGcQcnKaBlcWuJkBI-88/view?usp=sharing) определите цвет используемого шрифта. В ответе укажите его в формате r,g,b.
+**GET / HTTP/2**
+
+> #### - У вкладки “О компании” (https://drive.google.com/file/d/1fSPgT9usn6gEBGcQcnKaBlcWuJkBI-88/view?usp=sharing) определите цвет используемого шрифта. В ответе укажите его в формате r,g,b.
 
 ***Ответ: цвет используемого шрифта - `RGB (10, 184, 182)`*** 
 
