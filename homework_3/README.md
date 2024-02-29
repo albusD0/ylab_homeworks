@@ -1,10 +1,11 @@
-<iframe src="https://github.com/albusD0/ylab_homeworks/blob/main/homework_3/media/chrome_devtools.mp4"></iframe>  
 ### 1. Используя браузер Google Chrome, перейдите на сайт https://ylab.io/ 
 
 > #### - Определите первый HTTPS-запрос, отправленный к домену ylab.io. В ответе укажите стартовую строку данного запроса.
 
 Открыв DevTools в Chrome, прошел во вкладку **Network** и в [сетевом журнале](https://developer.chrome.com/docs/devtools/network?hl=ru#load) выбрал самый первый запрос, который назывался **ylab.io**. 
-Далее проинспектировал вкладку **Headers**, где выбрал **Request Headers**. Первым, что шло в этой панели, было:
+Далее проинспектировал вкладку **Headers**, где выбрал **Request Headers**. [Короткое видео на тему](https://drive.google.com/file/d/10HagiLcf8-aRWj0qwCWZpUvSkMPnb8Ok/view?usp=drive_link).
+
+Первым, что шло в этой панели, было:
 
 ````
 :authority: ylab.io
