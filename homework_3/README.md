@@ -34,6 +34,8 @@
 
 Второй строкой уже идет `Host: ylab.io`.
 
+<img src="https://github.com/albusD0/ylab_homeworks/blob/main/homework_3/media/startline_in_ff.png" width="640">
+
 > #### - У вкладки “О компании” (https://drive.google.com/file/d/1fSPgT9usn6gEBGcQcnKaBlcWuJkBI-88/view?usp=sharing) определите цвет используемого шрифта. В ответе укажите его в формате r,g,b.
 
 ***Ответ: цвет используемого шрифта - `RGB (10, 184, 182)`*** 
