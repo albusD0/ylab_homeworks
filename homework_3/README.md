@@ -13,7 +13,7 @@
 :path: /
 :scheme: https
 ````
-<img src="https://github.com/albusD0/ylab_homeworks/blob/main/homework_3/media/startline_in_chrome.png" width="640">
+<img src="https://github.com/albusD0/ylab_homeworks/blob/main/homework_3/media/startline_in_chrome.png" width="512">
 
 Немного погуглив, пришел к выводу, что ввиду того, что HTTP/2 - бинарный протокол, а не текстовый, как HTTP/1, в нем для записи используются псевдозаголовки (можно об этом посмотреть, например, [здесь](https://portswigger.net/web-security/request-smuggling/advanced/http2-exclusive-vectors)). Цитата с приведенного сайта:
 
